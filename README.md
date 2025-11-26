@@ -30,9 +30,9 @@ You can adjust the signal processing behavior by modifying the parameters at the
 | `duration` | The duration (in seconds) of the segment to process. Keep this small for fast results. | 2 to 10 |
 | `offset` | The starting time (in seconds) of the segment to process. | 0 to (Total Duration - `duration`) |
 
-## 🧠 Core Concepts: Fourier Series and Projection
+## Core Concepts: Fourier Series (Orthogonal Basis) and Projection (for Dimensionality reduced best approximation)
 
-The script operates on the principle of **signal approximation** using a basis, which is fundamental to Fourier Analysis.
+The script operates on the principle of **signal approximation** using a orthogonal basis.
 
 ### 1. The Basis
 
