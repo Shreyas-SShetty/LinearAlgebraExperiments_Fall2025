@@ -72,7 +72,7 @@ $$
 
 The script dynamically plots the:
 * **Original vs. Reconstructed Signal:** Showing how well the limited basis vectors approximate the original wave.
-* **Error Signal:** The difference between the original and reconstructed signals ($\mathbf{y}_{\text{clipped}} - \mathbf{y}_{\text{reconstructed}}$).
+* **Error Signal:** The difference between the original and reconstructed signals ($\mathbf{y}_{\text{clipped}} - \mathbf{y}_{\text{reconstructed}}$) .
 * **RMSE Error:** The Root Mean Square Error (RMSE) is calculated and displayed, quantifying the quality of the reconstruction.
 
 As `k` (the number of basis vectors) increases, you will observe the reconstructed signal getting closer to the original, and the RMS error decreasing.
