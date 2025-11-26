@@ -37,8 +37,8 @@ The script operates on the principle of **signal approximation** using a basis, 
 ### 1. The Basis
 
 The script uses a set of basis vectors derived from the prominent frequencies:
-* **DC Component:** A constant vector of ones ($\cos(2 \pi \cdot 0 \cdot t)$).
-* **AC Components:** Pairs of **sine** and **cosine** waves ($\cos(2 \pi f_k t)$ and $\sin(2 \pi f_k t)$) for each prominent frequency $f_k$.
+* **DC Component:** A constant vector of ones.
+* **AC Components:** Pairs of **sine** and **cosine** waves ($\cos(2 \pi f_k t)$ and ($\sin(2 \pi f_k t)$) for each prominent frequency $f_k$.
 
 ### 2. Identifying Prominent Frequencies (`blackBox` Function)
 
@@ -65,7 +65,7 @@ $$
 The final **reconstructed signal** $\mathbf{y}_{\text{reconstructed}}$ is the sum of each basis vector multiplied by its calculated coefficient:
 
 $$
-\mathbf{y}_{\text{reconstructed}} = \sum_{k=1}^{\text{basisDimension}} \left( a_k \cos(2 \pi f_k t) + b_k \sin(2 \pi f_k t) \right)
+\mathbf{y}_{\text{reconstructed}} = DC component + \sum_{k=1}^{\text{basisDimension}} \left( a_k \cos(2 \pi f_k t) + b_k \sin(2 \pi f_k t) \right)
 $$
 
 ### 4. Visualization and Error
@@ -75,7 +75,7 @@ The script dynamically plots the:
 * **Error Signal:** The difference between the original and reconstructed signals ($\mathbf{y}_{\text{clipped}} - \mathbf{y}_{\text{reconstructed}}$).
 * **RMSE Error:** The Root Mean Square Error (RMSE) is calculated and displayed, quantifying the quality of the reconstruction.
 
-As `k` (the number of basis vectors) increases, you will observe the reconstructed signal getting closer to the original, and the RMSE error decreasing, illustrating the power of Fourier analysis.
+As `k` (the number of basis vectors) increases, you will observe the reconstructed signal getting closer to the original, and the RMS error decreasing, illustrating the power of Fourier analysis.
 
 
 
