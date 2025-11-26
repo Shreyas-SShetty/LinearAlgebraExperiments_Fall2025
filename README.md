@@ -52,7 +52,7 @@ The `blackBox` function uses the **Fast Fourier Transform (FFT)** to convert the
 
 ### 3. Projection and Reconstruction
 
-For each basis vector (DC, $\cos(2 \pi f_k t)$, $\sin(2 \pi f_k t)$), the script calculates the **projection coefficient (amplitude)** using the formula for vector projection:
+For each basis vector ( DC, $\cos(2 \pi f_k t), \sin(2 \pi f_k t)$ ), the script calculates the **projection coefficient (amplitude)** using the formula for vector projection:
 
 $$
 \text{Coefficient} = \frac{\mathbf{y} \cdot \mathbf{b}}{\mathbf{b} \cdot \mathbf{b}}
