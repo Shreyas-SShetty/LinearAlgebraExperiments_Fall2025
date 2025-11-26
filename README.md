@@ -38,7 +38,7 @@ The script operates on the principle of **signal approximation** using a orthogo
 
 The script uses a set of basis vectors derived from the prominent frequencies:
 * **DC Component:** A constant vector of ones.
-* **AC Components:** Pairs of **sine** and **cosine** waves ($\cos(2 \pi f_k t)$ and $\sin(2 \pi f_k t)$ for each prominent frequency $f_k$).
+* **AC Components:** Pairs of **sine** and **cosine** waves ($\cos(2 \pi f_k t)$ and $\sin(2 \pi f_k t)$ for each prominent frequency $f_k$.
 
 ### 2. Identifying Prominent Frequencies (`blackBox` Function)
 
