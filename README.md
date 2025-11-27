@@ -95,7 +95,6 @@ This project demonstrates population migration between two cities A and B using 
 
 $` \begin{bmatrix}0.8 & 0.1\\0.2 & 0.9\end{bmatrix} `$
 
-Here, each column sums to 1 (law of total probability).  
 The matrix is **ergodic**, meaning repeated multiplications lead to a **steady-state** distribution. Further details are mentioned in report.
 
 ### Steady-State
@@ -109,5 +108,3 @@ No matter the initial population distribution, the system converges to this equi
 An animation demonstrates the migration over cycles with a total population of **150**, converging to the steady-state distribution.
 
 https://github.com/user-attachments/assets/ea8a5edc-0026-4343-ae93-f214b410a670
-
-> This showcases how Markov Chains model real-world migration dynamics through iterative probability transitions.
