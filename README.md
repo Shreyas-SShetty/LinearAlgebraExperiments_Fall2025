@@ -91,7 +91,7 @@ https://github.com/user-attachments/assets/702250d6-fbcc-4eee-9b4c-6076da977e20
 
 This project demonstrates population migration between two cities A and B using a **Markov Chain** model.
 
-### Transition Matrix
+### Example Transition Matrix
 
 $` \begin{bmatrix}0.8 & 0.1\\0.2 & 0.9\end{bmatrix} `$
 
