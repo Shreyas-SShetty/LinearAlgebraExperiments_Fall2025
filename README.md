@@ -93,7 +93,7 @@ This project demonstrates population migration between two cities **A** and **B*
 
 ### Transition Matrix
 
-$\begin{bmatrix}0.8 0.1\\\0.2 0.9\end{bmatrix}$
+P = $\begin{bmatrix}0.8 & 0.1\\\0.2 & 0.9\end{bmatrix}$
 
 Here, each column sums to 1 (law of total probability).  
 The matrix is **ergodic**, meaning repeated multiplications lead to a **steady-state** distribution. Further details are mentioned in report.
