@@ -1,5 +1,5 @@
-# EE635_Project
-## ODAV (Audio Signal Reconstruction using Fourier Series Projection)
+# Linear Algebra Experiments - Demo
+## Experiment 1 - Audio Signal Reconstruction using Fourier Series Projection
 
 This MATLAB script demonstrates how to reconstruct an audio signal by projecting it onto a basis of sinusoidal (sine and cosine) functions, effectively performing a truncated **Fourier Series Expansion**.
 
@@ -83,3 +83,42 @@ As `k` (the number of basis vectors) increases, you will observe the reconstruct
 
 https://github.com/user-attachments/assets/702250d6-fbcc-4eee-9b4c-6076da977e20
 
+
+
+## Experiment 2
+
+## Population Migration Simulation using Markov Chains
+
+This project demonstrates population migration between two cities **A** and **B** using a **Markov Chain** model.
+
+### Transition Matrix
+We define the population transition as:
+
+\[
+P = \begin{bmatrix}
+0.8 & 0.1 \\
+0.2 & 0.9
+\end{bmatrix}
+\]
+
+Here, each column sums to 1 (law of total probability).  
+The matrix is **ergodic**, meaning repeated multiplications lead to a **steady-state** distribution.
+
+### Steady-State
+The stationary distribution is given by the eigenvector corresponding to eigenvalue 1:
+
+\[
+\pi = \begin{bmatrix}
+\frac{1}{2} \\
+\frac{1}{2}
+\end{bmatrix}
+\]
+
+No matter the initial population distribution, the system converges to this equilibrium after several iterations.
+
+### Simulation
+An animation demonstrates the migration over cycles with a total population of **150**, converging to the steady-state distribution.
+
+https://github.com/user-attachments/assets/ea8a5edc-0026-4343-ae93-f214b410a670
+
+> This showcases how Markov Chains model real-world migration dynamics through iterative probability transitions.
